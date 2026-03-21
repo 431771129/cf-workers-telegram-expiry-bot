@@ -165,6 +165,6 @@ MIT License
 欢迎提交 Issue 和 Pull Request。
 
 📞 联系
-如有问题，可通过 Telegram 联系 @yourusername。
+如有问题，可通过 Telegram 联系 @yuangs_tang。
 
 ⭐ 如果这个项目对你有帮助，请给个 Star 支持一下！
