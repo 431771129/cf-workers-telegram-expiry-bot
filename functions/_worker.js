@@ -7,6 +7,8 @@ export async function onRequest(context) {
   const { request, env } = context;
   try {
     const update = await request.json();
+    console.log('Received update:', JSON.stringify(update));
+    
     if (update.callback_query) {
       await handleCallback(env, update.callback_query);
       return new Response('ok');
