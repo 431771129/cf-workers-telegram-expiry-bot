@@ -1,10 +1,14 @@
+// handlers/callback.js
 import { SessionManager } from '../core/session.js';
 import { TaskService } from '../core/task.js';
 import { sendMessage, editMessage, answerCallback } from '../core/telegram.js';
-import { sendMainMenu, showList, showTaskDetail, buildNotifyKeyboard, buildExpireKeyboard } from '../ui/menu.js';
+import { sendMainMenu, showList, showTaskDetail } from '../ui/menu.js';
+import { buildNotifyKeyboard, buildExpireKeyboard } from '../ui/keyboards.js';  // 修改这一行
 import { CALLBACK_ACTIONS, ALLOWED_ACTIONS } from '../config.js';
 import { getBeijingDate } from '../utils/time.js';
 import { getTypeText, escapeHtml } from '../ui/messages.js';
+
+// ... 其余代码保持不变
 
 export async function handleCallback(env, cb) {
   const chatId = cb.message.chat.id;
