@@ -21,6 +21,6 @@ export const ALLOWED_ACTIONS = Object.values(CALLBACK_ACTIONS);
 
 export const MAX_TASK_NAME_LEN = 100;
 export const MAX_EXPIRE_DAYS = 365;
-export const DEFAULT_SESSION_TTL = 1800; // 30分钟
-export const NOTIFY_DAYS_AHEAD = 7;       // 提前提醒的天数范围
-export const TELEGRAM_CONCURRENCY = 20;   // 发送消息并发数
+export const DEFAULT_SESSION_TTL = 1800;
+export const NOTIFY_DAYS_AHEAD = 7;
+export const TELEGRAM_CONCURRENCY = 20;
