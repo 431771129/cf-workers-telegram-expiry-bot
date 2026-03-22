@@ -1,8 +1,7 @@
 import { SessionManager } from '../core/session.js';
 import { TaskService } from '../core/task.js';
 import { sendMessage, editMessage, answerCallback } from '../core/telegram.js';
-import { sendMainMenu, showList, showTaskDetail } from '../ui/menu.js';
-import { buildNotifyKeyboard, buildExpireKeyboard } from '../ui/keyboards.js';
+import { sendMainMenu, showList, showTaskDetail, buildNotifyKeyboard, buildExpireKeyboard } from '../ui/menu.js';
 import { CALLBACK_ACTIONS, ALLOWED_ACTIONS } from '../config.js';
 import { getBeijingDate } from '../utils/time.js';
 import { getTypeText, escapeHtml } from '../ui/messages.js';
