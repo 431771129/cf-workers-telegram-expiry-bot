@@ -1,6 +1,5 @@
-// core/notify.js
 import { TaskService } from './task.js';
-import { sendMessage } from '../core/telegram.js';
+import { sendMessage } from './telegram.js';
 import { getFutureDates } from '../utils/time.js';
 import { ConcurrencyLimiter } from '../utils/concurrency.js';
 import { logInfo } from '../utils/log.js';
